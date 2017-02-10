@@ -1,0 +1,34 @@
+{
+  "name": "stream-processor",
+  "version": "1.0.0",
+  "description": "A simple async processing pipeline for stream input",
+  "main": "dist/index.js",
+  "scripts": {
+    "preversion": "rm -rf dist; tsc ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrDanRyan/stream-processor.git"
+  },
+  "keywords": [
+    "stream",
+    "async",
+    "highland",
+    "parallel",
+    "merge"
+  ],
+  "author": "Dan Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrDanRyan/stream-processor/issues"
+  },
+  "homepage": "https://github.com/DrDanRyan/stream-processor#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/highland": "^1.14.30",
+    "@types/mongodb": "^2.1.39"
+  },
+  "dependencies": {
+    "highland": "^2.10.2"
+  }
+}
